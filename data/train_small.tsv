@@ -1,0 +1,20 @@
+	
+1/2	QUANTITY
+large	SIZE
+sweet	NAME
+red	NAME
+onion	NAME
+,	O
+thinly	O
+sliced	STATE
+
+6	QUANTITY
+ounces	UNIT
+fresh	DF
+mushrooms	NAME
+,	O
+sliced	STATE
+	
+4	QUANTITY
+corn	NAME
+tortillas	NAME
