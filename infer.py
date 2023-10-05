@@ -4,8 +4,8 @@ import time
 
 here = Path(__file__).parent
 
-classifier = pipeline("ner", model= here / "./model/checkpoint-548", aggregation_strategy="first")
+classifier = pipeline("ner", model= here / "./model", aggregation_strategy="first")
 
 clock = time.time()
-print(classifier("1 large wakandan almond"))
+print(classifier("half a cup of chopped onion"))
 print("Time elapsed: " + str(time.time() - clock))
